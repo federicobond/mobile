@@ -1,9 +1,4 @@
 // !$*UTF8*$!
-
-// Copyright 2015 The Go Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style
-// license that can be found in the LICENSE file.
-
 {
 	archiveVersion = 1;
 	classes = {
@@ -12,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		64F44A6F1E2D433D009A4747 /* Hello.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F44A6E1E2D433D009A4747 /* Hello.framework */; };
+		0FAB377121FA3635002DCD20 /* Hello.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAB377021FA3635002DCD20 /* Hello.framework */; };
 		EBA3E2861B681AFA00018449 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA3E2851B681AFA00018449 /* main.m */; };
 		EBA3E2891B681AFA00018449 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA3E2881B681AFA00018449 /* AppDelegate.m */; };
 		EBA3E28C1B681AFA00018449 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA3E28B1B681AFA00018449 /* ViewController.m */; };
@@ -21,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		64F44A6E1E2D433D009A4747 /* Hello.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Hello.framework; sourceTree = "<group>"; };
+		0FAB377021FA3635002DCD20 /* Hello.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Hello.framework; sourceTree = "<group>"; };
 		EBA3E2801B681AFA00018449 /* bind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA3E2841B681AFA00018449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBA3E2851B681AFA00018449 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -38,19 +33,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64F44A6F1E2D433D009A4747 /* Hello.framework in Frameworks */,
+				0FAB377121FA3635002DCD20 /* Hello.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FAB376F21FA3635002DCD20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FAB377021FA3635002DCD20 /* Hello.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EBA3E2771B681AFA00018449 = {
 			isa = PBXGroup;
 			children = (
 				EBA3E2821B681AFA00018449 /* bind */,
 				EBA3E2811B681AFA00018449 /* Products */,
-				64F44A6E1E2D433D009A4747 /* Hello.framework */,
+				0FAB376F21FA3635002DCD20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
